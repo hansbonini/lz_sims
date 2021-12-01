@@ -330,7 +330,6 @@ class LZSS(Compression):
                     if (not (best_match_offset, best_match_length) in matches):
                         matches.append((best_match_offset, best_match_length))
         if len(matches) > 0:
-            #print(matches)
             best_match = list(
                 filter(lambda m: m[1] == best_match_length, matches))
             best_match.sort(key=lambda m: m[0])

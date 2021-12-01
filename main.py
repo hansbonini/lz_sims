@@ -12,7 +12,7 @@ from utils.common import *
 cmd = argparse.ArgumentParser(
       formatter_class=argparse.RawDescriptionHelpFormatter,
       description=textwrap.dedent('''\
-            [SNES] SIMS Compressor / Decompressor
+            [SMS] SIMS Compressor / Decompressor
             ----------------------------------------------
             Tool for decompress and recompress graphics
             from games developed by SIMS using LZ+RLE
